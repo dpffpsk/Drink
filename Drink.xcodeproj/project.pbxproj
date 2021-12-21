@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850202A92771715C0093FF27 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850202A82771715C0093FF27 /* UNNotificationCenter.swift */; };
 		854B228D2770171E006359E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854B228C2770171E006359E7 /* AppDelegate.swift */; };
 		854B228F2770171E006359E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854B228E2770171E006359E7 /* SceneDelegate.swift */; };
 		854B22942770171E006359E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854B22922770171E006359E7 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850202A82771715C0093FF27 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 		854B22892770171E006359E7 /* Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854B228C2770171E006359E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854B228E2770171E006359E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				854B228E2770171E006359E7 /* SceneDelegate.swift */,
 				854B22922770171E006359E7 /* Main.storyboard */,
 				854B22A02770177D006359E7 /* AlertListViewController.swift */,
+				850202A82771715C0093FF27 /* UNNotificationCenter.swift */,
 				854B22A627701CFE006359E7 /* Alert.swift */,
 				854B22A227701917006359E7 /* AlertListCell.swift */,
 				854B22A327701917006359E7 /* AlertListCell.xib */,
@@ -156,6 +159,7 @@
 				854B22A427701917006359E7 /* AlertListCell.swift in Sources */,
 				854B22A727701CFE006359E7 /* Alert.swift in Sources */,
 				854B22A12770177D006359E7 /* AlertListViewController.swift in Sources */,
+				850202A92771715C0093FF27 /* UNNotificationCenter.swift in Sources */,
 				854B22A927702013006359E7 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
