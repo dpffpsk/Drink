@@ -35,8 +35,6 @@ class AlertListViewController: UITableViewController {
             
             var alertList = self.alertList()
             let newAlert = Alert(date: date, isOn: true)
-            debugPrint("111111111111111111111111111")
-            debugPrint(newAlert)
             
             alertList.append(newAlert)
             alertList.sort{ $0.date < $1.date } //오름차순

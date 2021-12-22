@@ -23,9 +23,6 @@ class AddAlertViewController: UIViewController {
     //저장버튼
     @IBAction func saveButtonTapped(_ sender: UIBarButtonItem) {
         //클로저 통해 선택된 시간 전달
-
-        debugPrint("333333333333333333")
-        debugPrint(datePicker.date)
         
         pickedDate?(datePicker.date)
         self.dismiss(animated: true, completion: nil)

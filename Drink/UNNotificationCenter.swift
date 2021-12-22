@@ -20,14 +20,6 @@ extension UNUserNotificationCenter {
         content.badge = 1
         
         //언제 알림 보낼지 트리거 설정
-        debugPrint("222222222222222222222222")
-        debugPrint(alert.date)
-        debugPrint(alert.time)
-        
-        let timeFormatter = DateFormatter()
-        timeFormatter.dateFormat = "HH:mm" //시간:분
-        timeFormatter.date(from: timeFormatter.string(from: alert.date))
-        
         let component = Calendar.current.dateComponents([.hour, .minute], from: alert.date)
         let trigger = UNCalendarNotificationTrigger(dateMatching: component, repeats: alert.isOn)
         
